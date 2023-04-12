@@ -3,7 +3,16 @@
 // 12821 -> да
 // 23432 -> да
 
-Console.Write("Введите число: ");
-int number = Console.ReadLine();
+int [] array = {1212};
+int n = array.Length;
+int index = 0;
+for (index = 0; index < n; index++){
+    if (array[index] == array[n-1]) {
+          Console.WriteLine("Является палиндромом");
+    } else{
+        Console.WriteLine("Не является палиндромом");
+    } 
+}
+
 
 
